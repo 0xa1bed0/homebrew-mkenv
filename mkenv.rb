@@ -1,16 +1,16 @@
 class Mkenv < Formula
   desc "Fast, secure, reproducible local isolated development environment generator"
   homepage "https://mkenv.sh/"
-  version "0.0.5"
+  version "0.0.6"
   license "Elastic-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/0xa1bed0/mkenv/releases/download/v0.0.5/mkenv-darwin-arm64"
-      sha256 "50d7095b00007de28512c1c78de7e95961e3453a48e5712d104b6efa9ac03647"
+      url "https://github.com/0xa1bed0/mkenv/releases/download/v0.0.6/mkenv-darwin-arm64"
+      sha256 "12c0ebcb8874e7aa9aff3c934dec3c3c57ce031456d075c1fafe7d69545cd16a"
     else
-      url "https://github.com/0xa1bed0/mkenv/releases/download/v0.0.5/mkenv-darwin-amd64"
-      sha256 "ef8ab0c45d755b371bb2bb88499231ec05c56ac771b0271bfa4fc809e28a47a5"
+      url "https://github.com/0xa1bed0/mkenv/releases/download/v0.0.6/mkenv-darwin-amd64"
+      sha256 "4c3c0c79925b1a6b8432f0ea19ecde6f6e4fc7cec8f2bbddf6726960aa7ce8bc"
     end
   end
 
